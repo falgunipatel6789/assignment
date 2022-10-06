@@ -37,7 +37,7 @@ public class Main {
 		System.out.println(" pls enter book Id :");
 		int bookId1 = sc.nextInt();
 		if (b.bookId == bookId1) {
-			p.bookdetail();
+			p.bookdetail(); // display book detail
 		} else {
 			System.out.println(" book not found.");
 		}
